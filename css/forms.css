@@ -1,6 +1,4 @@
-/* ============================
-   General Form Styles
-============================ */
+
 .form-container {
   max-width: 600px;
   margin: 2rem auto;
@@ -17,7 +15,7 @@
   text-align: center;
 }
 
-/* Labels & Inputs */
+
 .form-label {
   font-weight: 500;
   color: #333;
@@ -37,13 +35,13 @@
   box-shadow: 0 0 6px rgba(220,53,69,0.3);
 }
 
-/* Select & Textarea */
+
 select.form-control,
 textarea.form-control {
   resize: none;
 }
 
-/* Buttons */
+
 .btn-submit {
   background: #dc3545;
   color: #fff;
@@ -58,7 +56,7 @@ textarea.form-control {
   background: #bb2d3b;
 }
 
-/* Extra Form Sections */
+
 .form-section {
   margin-bottom: 1.2rem;
 }
@@ -68,7 +66,7 @@ textarea.form-control {
   font-size: 0.95rem;
 }
 
-/* Error / Success Messages */
+
 .form-error {
   color: #dc3545;
   font-size: 0.85rem;

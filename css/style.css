@@ -1,13 +1,11 @@
-/* css/style.css */
 
-/* General body styling */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f8f9fa;
   color: #333;
 }
 
-/* Navbar customizations */
+
 .navbar-brand {
   font-weight: 600;
   font-size: 1.3rem;
@@ -18,7 +16,7 @@ body {
   margin-right: 0.5rem;
 }
 
-/* Sidebar customizations */
+
 .sidebar {
   background: #fff;
   border-right: 1px solid #ddd;
@@ -36,7 +34,7 @@ body {
   border-radius: 8px;
 }
 
-/* Login/Register Card */
+
 .login-card {
   background: #fff url('../assets/images/pets-bg.jpg') no-repeat center center / cover;
   border-radius: 12px;
@@ -50,7 +48,7 @@ body {
   padding: 2rem;
 }
 
-/* Buttons */
+
 .btn-custom {
   background-color: #dc3545;
   color: #fff;
