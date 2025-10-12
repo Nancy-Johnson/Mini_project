@@ -1,8 +1,4 @@
-/* ============================
-   MAIN.JS – Pet Care Management
-============================ */
 
-// Sidebar Toggle (for smaller screens)
 document.addEventListener("DOMContentLoaded", function () {
   const sidebarToggle = document.querySelector("#sidebarToggle");
   const sidebar = document.querySelector(".admin-sidebar");
@@ -14,15 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Logout Confirmation
+
 function confirmLogout(event) {
   event.preventDefault();
   if (confirm("Are you sure you want to log out?")) {
-    window.location.href = "index.html"; // Redirect to login page
+    window.location.href = "index.html"; 
   }
 }
 
-// Form Validation Example
+
 function validateForm(formId) {
   const form = document.getElementById(formId);
   if (!form) return;
@@ -47,12 +43,12 @@ function validateForm(formId) {
   });
 }
 
-// Example: Apply validation on register form
+
 validateForm("registerForm");
 validateForm("addMedicalForm");
 validateForm("vaccinationForm");
 
-// Toast Notification (Bootstrap 5)
+
 function showToast(message, type = "success") {
   const toastContainer = document.getElementById("toastContainer");
   if (!toastContainer) return;
@@ -71,7 +67,6 @@ function showToast(message, type = "success") {
   const bsToast = new bootstrap.Toast(toast);
   bsToast.show();
 
-  // Remove toast after hidden
   toast.addEventListener("hidden.bs.toast", () => {
     toast.remove();
   });
